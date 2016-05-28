@@ -22,5 +22,13 @@ namespace WindowsFormsApplication
             Ejercicio1 e1 = new Ejercicio1();
             e1.Show();
         }
+
+        private void toolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            JustificarCadena jc = new JustificarCadena();
+            jc.Show();
+
+
+        }
     }
 }
