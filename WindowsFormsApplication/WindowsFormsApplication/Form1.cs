@@ -19,7 +19,8 @@ namespace WindowsFormsApplication
 
         private void toolStripMenuItem2_Click(object sender, EventArgs e)
         {
-
+            Ejercicio1 e1 = new Ejercicio1();
+            e1.Show();
         }
     }
 }
