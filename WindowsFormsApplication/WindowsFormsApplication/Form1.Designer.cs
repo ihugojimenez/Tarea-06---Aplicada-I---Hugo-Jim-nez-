@@ -33,6 +33,7 @@
             this.toolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.dateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -72,11 +73,25 @@
             this.toolStripMenuItem3.Text = "2. Justificar Cadena";
             this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
             // 
+            // dateTimePicker
+            // 
+            this.dateTimePicker.CalendarMonthBackground = System.Drawing.SystemColors.InactiveCaptionText;
+            this.dateTimePicker.CustomFormat = "hh mm              yyyy dd MM ";
+            this.dateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePicker.Location = new System.Drawing.Point(382, 0);
+            this.dateTimePicker.MaxDate = new System.DateTime(2016, 5, 28, 0, 0, 0, 0);
+            this.dateTimePicker.MinDate = new System.DateTime(2016, 5, 28, 0, 0, 0, 0);
+            this.dateTimePicker.Name = "dateTimePicker";
+            this.dateTimePicker.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker.TabIndex = 1;
+            this.dateTimePicker.Value = new System.DateTime(2016, 5, 28, 0, 0, 0, 0);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(594, 304);
+            this.Controls.Add(this.dateTimePicker);
             this.Controls.Add(this.toolStrip1);
             this.Name = "MainForm";
             this.ShowIcon = false;
@@ -94,6 +109,7 @@
         private System.Windows.Forms.ToolStripDropDownButton toolStripDropDownButton1;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
+        private System.Windows.Forms.DateTimePicker dateTimePicker;
     }
 }
 
