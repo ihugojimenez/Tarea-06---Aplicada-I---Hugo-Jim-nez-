@@ -64,6 +64,12 @@
     <Compile Include="JustificarCadena.Designer.cs">
       <DependentUpon>JustificarCadena.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ordenar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ordenar.Designer.cs">
+      <DependentUpon>Ordenar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sumas.cs">
@@ -80,6 +86,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="JustificarCadena.resx">
       <DependentUpon>JustificarCadena.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ordenar.resx">
+      <DependentUpon>Ordenar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

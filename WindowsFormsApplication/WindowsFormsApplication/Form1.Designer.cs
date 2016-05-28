@@ -35,6 +35,7 @@
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.dateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.sumasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ordenarCadenasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -54,7 +55,8 @@
             this.toolStripDropDownButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem2,
             this.toolStripMenuItem3,
-            this.sumasToolStripMenuItem});
+            this.sumasToolStripMenuItem,
+            this.ordenarCadenasToolStripMenuItem});
             this.toolStripDropDownButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton1.Image")));
             this.toolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripDropDownButton1.Name = "toolStripDropDownButton1";
@@ -64,14 +66,14 @@
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(175, 22);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(177, 22);
             this.toolStripMenuItem2.Text = "1. Palabras en linea";
             this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(175, 22);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(177, 22);
             this.toolStripMenuItem3.Text = "2. Justificar Cadena";
             this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
             // 
@@ -91,9 +93,16 @@
             // sumasToolStripMenuItem
             // 
             this.sumasToolStripMenuItem.Name = "sumasToolStripMenuItem";
-            this.sumasToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.sumasToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
             this.sumasToolStripMenuItem.Text = "3. Sumas";
             this.sumasToolStripMenuItem.Click += new System.EventHandler(this.sumasToolStripMenuItem_Click);
+            // 
+            // ordenarCadenasToolStripMenuItem
+            // 
+            this.ordenarCadenasToolStripMenuItem.Name = "ordenarCadenasToolStripMenuItem";
+            this.ordenarCadenasToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
+            this.ordenarCadenasToolStripMenuItem.Text = "4. Ordenar Cadenas";
+            this.ordenarCadenasToolStripMenuItem.Click += new System.EventHandler(this.ordenarCadenasToolStripMenuItem_Click);
             // 
             // MainForm
             // 
@@ -120,6 +129,7 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
         private System.Windows.Forms.DateTimePicker dateTimePicker;
         private System.Windows.Forms.ToolStripMenuItem sumasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ordenarCadenasToolStripMenuItem;
     }
 }
 

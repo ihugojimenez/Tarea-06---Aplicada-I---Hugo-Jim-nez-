@@ -36,5 +36,11 @@ namespace WindowsFormsApplication
             Sumas s = new Sumas();
             s.Show();
         }
+
+        private void ordenarCadenasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Ordenar o = new Ordenar();
+            o.Show();
+        }
     }
 }
