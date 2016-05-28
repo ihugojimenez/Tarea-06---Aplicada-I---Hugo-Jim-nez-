@@ -30,5 +30,11 @@ namespace WindowsFormsApplication
 
 
         }
+
+        private void sumasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Sumas s = new Sumas();
+            s.Show();
+        }
     }
 }
